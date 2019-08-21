@@ -1,0 +1,30 @@
+.api-calling{
+    width: 90%;
+    height: 60px;
+    font-size: 20px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    .name{
+        margin-left: 15px;
+    }
+    .left{
+        p{
+          margin-left: 10px;  
+          cursor: pointer;
+        }
+    }
+    .right{
+        margin-right: 15px;
+        .fa{
+            margin-left: 15px;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        .fa-trash-o{
+            color: rgb(240, 41, 41);
+        }
+    }
+}

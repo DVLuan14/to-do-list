@@ -1,0 +1,129 @@
+*{margin: 0; padding: 0;}
+.main{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    .mail-header{
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        p{
+            margin-left: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .fa{
+            width: 46px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            border: 1px solid none;
+            border-radius: 100%;
+            background-color: rgba(212, 209, 209, 0.794);
+        }
+    }
+.header{
+    height: 80px;
+    background-color: rgba(75, 212, 189, 0.842);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 59%;
+    .logout{
+        width: 100px;
+        height: 40px;
+        display:flex;
+        justify-content: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        color: black;
+        background: rgb(221, 219, 219);
+        border-radius: 5px;
+        margin-left: 20px; 
+        cursor: pointer;       
+    }
+    .logout:hover{
+        background: rgb(236, 233, 233);
+    }
+}
+.body{
+    background: rgba(223, 238, 237, 0.589);
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    transition: opacity 0.2s ease;
+    .cube{
+        margin: auto;
+        width: 1000px;
+        height: 550px;
+        background: white;
+        margin-top: 0;
+        .el-pagination{
+            margin-top: 25px;
+        }
+    }
+    .topcube{
+        display: flex;
+        margin: 20px 50px;
+        width: 900px;
+        height: 40px;
+        justify-content: space-between;
+        padding-bottom: 15px;
+        .wrapper {
+            position: relative;
+            display: flex;
+            .btn-addnew{
+                text-decoration: none;
+                margin-left: 20px;
+                width: 160px;
+                height: 40px;
+                border-radius: 5px;
+                color: white;
+                font-size: 17px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background: rgb(59, 212, 179);
+                cursor: pointer;
+            }
+            .btn-addnew:hover{
+                background: rgb(13, 165, 132);
+            }
+        }
+    }
+    .addNew{
+        width: 90%;
+        height: 60px;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        .input-title{
+            width: 40%;
+            margin-left: 10px;
+        }
+        .icon-addNew{
+            margin-right: 15px;
+            font-size: 35px;
+            .fa{
+                margin-left: 10px;
+                cursor: pointer;
+            }
+            .fa-times{
+                color: rgb(240, 41, 41);
+            }
+        }
+    }
+    }
+    .footer{
+        padding-top: 80px;
+    }   
+}
